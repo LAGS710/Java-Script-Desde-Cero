@@ -15,9 +15,9 @@ if (modo == 1){
     } else if (nota >= 90){
         alert("Su nota " + nota + " es excelente, ¡Felicidades!")
     } else if(nota <= 89 && nota >= 75){
-        alert("Su note de" + "esta bien. Continue esforzandose.");
+        alert("Su nota de " + nota + " esta bien. Continue esforzandose.");
     } else if(nota <= 74 && nota >= 60){
-        alert("Su note de " + " es suficiente. Tiene bastantes areas de oportunidad para mejorar.");
+        alert("Su nota de " + nota + " es suficiente. Tiene bastantes areas de oportunidad para mejorar.");
     } else alert("Su nota de " + nota + " es insuficiente. Usted no ha aprobado.");   
 } else if ( modo == 2){
     notaPrimerParcial = prompt("¿Cual es la calificación del primer parcial?");
@@ -38,9 +38,9 @@ if (modo == 1){
         if (nota >= 90){
             alert("Su promedio de " + nota + " es excelente, ¡Felicidades!")
         } else if(nota <= 89 && nota >= 75){
-            alert("Su promedio de" + nota + " esta bien. Continue esforzandose.");
+            alert("Su promedio de " + nota + " esta bien. Continue esforzandose.");
         } else if(nota <= 74 && nota >= 60){
             alert("Su promedio de " + nota + " es suficiente. Tiene bastantes areas de oportunidad para mejorar.");
-        } else if (nota =! 0) {alert("Su promedio de " + nota + " es insuficiente. asdsd Usted no ha aprobado el semestre.");}  
+        } else alert("Su promedio de " + nota + " es insuficiente. Usted no ha aprobado el semestre.");  
         }
 } else alert("Por favor seleccione un modo válido.");
