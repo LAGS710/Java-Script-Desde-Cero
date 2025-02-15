@@ -89,5 +89,5 @@ console.log("Las siguientes frutas son de color Verde 🟢: " + colorVerde)
 console.log("Las siguientes frutas son de color Naranja 🟠: " + colorNaranja)
 console.log("Las siguientes frutas son de color Rojo 🔴: " + colorRojo + "\n")
 
-console.log("Estas son las cantidades que existen en inventario por cada fruta: \n Platano: " + contadorPlatano + "\n Piña: " + contadorPiña + " \n Guayaba: " + contadorGuayaba + " \n Manzana: " + contadorManzana + " \n Pera: " + contadorPera  + " \n Durazno: " + contadorDurazno + " \n Mandarina: " + contadorMandarina + "Naranja: " + contadorNaranja)
+console.log("Estas son las cantidades que existen en inventario por cada fruta: \n Platano: " + contadorPlatano + "\n Piña: " + contadorPiña + " \n Guayaba: " + contadorGuayaba + " \n Manzana: " + contadorManzana + " \n Pera: " + contadorPera  + " \n Durazno: " + contadorDurazno + " \n Mandarina: " + contadorMandarina + " \n Naranja: " + contadorNaranja)
 
