@@ -16,6 +16,7 @@ const boxComments = document.getElementsByClassName("comentarios")[0]; // obtene
 let comment = (event) => {
     event.preventDefault();
     boxComments.innerHTML += `<li>${inputComment.value}</li>`;
+    inputComment.value = "";
 }   
 
 btnComment.addEventListener("click", comment)
